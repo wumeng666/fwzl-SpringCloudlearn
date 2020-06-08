@@ -1,7 +1,8 @@
+from:
+  httpjsodw-1.0
 zuul:
   routes:
     service-provider:
       path: /service/**
       serviceId: eureka-service
-from:
-  httpjsodw-1.0
+
