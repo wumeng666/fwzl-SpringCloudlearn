@@ -3,3 +3,5 @@ zuul:
     service-provider:
       path: /service/**
       serviceId: eureka-service
+from:
+  httpjsodw-1.0
