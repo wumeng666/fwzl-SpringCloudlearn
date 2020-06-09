@@ -1,0 +1,35 @@
+spring:
+ application:
+  name: register-center
+ datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://172.19.9.94:3306/fwzz?useUnicode=true&characterEncoding=utf-8&useSSL=true
+  username: root
+  password: root
+
+
+server:
+ port: 9999
+
+eureka:
+ instance:
+  hostname: docker
+ client:
+  registerWithEureka: false
+  fetchRegistry: false
+  serviceUrl:
+   defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  healthcheck:
+   enabled: true
+ server:
+  enableSelfPreservation: true
+  evictionIntervalTimerInMs: 3000
+
+mybatis:
+ type-aliases-package: com.example.demo.entity
+ mapperLocations: classpath:mapper/*.xml
+ configuration:
+  log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+logging:
+ level:
+  com.netflix: warn
