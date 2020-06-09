@@ -8,4 +8,5 @@ zuul:
       path: /imageStretching/**
       serviceId: image-stretching
       name: 图像拉伸
-
+form:
+  1111
