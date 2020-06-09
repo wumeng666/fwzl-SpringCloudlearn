@@ -1,5 +1,7 @@
 from:
   jjjjjjjjj-1.0
+from:
+  jjjjjjjjj-2.0
 server:
   port: 7002
 management:
