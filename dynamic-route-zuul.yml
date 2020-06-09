@@ -1,13 +1,13 @@
 zuul:
   routes:
     eureka-hello:
-      path: /eurekaHello/**
-      serviceId: eureka-hello
-      name: 测试
+      path: '/eurekaHello/**'
+      serviceId: 'eureka-hello'
+      name: '测试'
     image-stretching:
-      path: /imageStretching/**
-      serviceId: image-stretching
-      name: 图像拉伸
+      path: '/imageStretching/**'
+      serviceId: 'image-stretching'
+      name: '图像拉伸'
 form:
   1111
   
