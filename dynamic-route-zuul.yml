@@ -1,8 +1,11 @@
-from:
-  httpjsodw-1.0
 zuul:
   routes:
-    service-provider:
-      path: /service/**
-      serviceId: eureka-service
+    eureka-hello:
+      path: /eurekaHello/**
+      serviceId: eureka-hello
+      name: 测试
+    image-stretching:
+      path: /imageStretching/**
+      serviceId: image-stretching
+      name: 图像拉伸
 
