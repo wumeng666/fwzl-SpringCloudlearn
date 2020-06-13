@@ -33,3 +33,6 @@ swagger:
 ribbon:
   eureka:
     enabled: true
+    
+global:
+  count: 5
