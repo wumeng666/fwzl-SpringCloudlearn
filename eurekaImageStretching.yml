@@ -24,7 +24,11 @@ eureka:
       enabled: true
   instance:
     metadataMap:
-      biancheng: zhangsan
+      biancheng: wumeng
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 3
     lease-expiration-duration-in-seconds: 6
+
+# 请求最大量
+global:
+  count: 5
