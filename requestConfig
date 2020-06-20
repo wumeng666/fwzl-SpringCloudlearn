@@ -1,0 +1,14 @@
+linux:
+  username:
+    root
+  password:
+    root
+  host:
+    172.19.9.133
+  port:
+    22
+windows:
+  host:
+    172.19.9.126
+  port:
+    22
