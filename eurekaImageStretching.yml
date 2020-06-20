@@ -16,8 +16,8 @@ server:
 
 eureka:
   client:
-    fetchRegistry: true
-    registerWithEureka: true
+    fetchRegistry: false
+    registerWithEureka: false
     serviceUrl:
       defaultZone: http://docker:9999/eureka/
     healthcheck:
