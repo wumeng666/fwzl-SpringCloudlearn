@@ -4,7 +4,7 @@ spring:
     name: airrecitify
 
 server:
-  port: 902
+  port: 9002
   zuul:
     url: zuul
 
