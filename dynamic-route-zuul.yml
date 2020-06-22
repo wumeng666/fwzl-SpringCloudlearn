@@ -12,3 +12,7 @@ zuul:
       'path': '/georectifyparm/**'
       'serviceId': 'georectifyparm'
       'name': '几何校正'
+    airrecitify:
+      'path': '/airrecitify/**'
+      'serviceId': 'airrecitify'
+      'name': '大气校正'
