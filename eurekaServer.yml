@@ -33,3 +33,18 @@ mybatis:
 logging:
  level:
   com.netflix: warn
+
+linux:
+  username:
+    root
+  password:
+    root
+  host:
+    172.19.9.133
+  port:
+    22
+windows:
+  host:
+    172.19.9.128
+  port:
+    9090
