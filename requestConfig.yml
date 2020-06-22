@@ -11,7 +11,7 @@ windows:
   host:
     172.19.9.128
   port:
-    22
+    9090
     
 eureka:
   client:
