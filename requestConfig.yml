@@ -12,3 +12,5 @@ windows:
     172.19.9.128
   port:
     22
+  filepath:
+    cmd /c cd /d E://algorithm/AirRecitify && 
