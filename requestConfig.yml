@@ -12,3 +12,18 @@ windows:
     172.19.9.128
   port:
     22
+    
+eureka:
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://docker:9999/eureka/
+    healthcheck:
+      enabled: true
+  instance:
+    metadataMap:
+      biancheng: wumeng
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 6
