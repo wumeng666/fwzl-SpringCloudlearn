@@ -8,8 +8,7 @@ zuul:
       'path': '/imageStretching/**'
       'serviceId': 'image-stretching'
       'name': '图像拉伸'
-form:
-  1111
-  
-sryil:
-  dd: dd
+    georectifyparm:
+      'path': '/georectifyparm/**'
+      'serviceId': 'georectifyparm'
+      'name': '几何校正'
