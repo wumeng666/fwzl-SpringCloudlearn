@@ -28,11 +28,6 @@ eureka:
 mybatis:
  type-aliases-package: com.example.demo.entity
  mapperLocations: classpath:mapper/*.xml
- configuration:
-  log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-logging:
- level:
-  com.netflix: warn
 
 linux:
   username:
