@@ -9,7 +9,7 @@ linux:
     22
 windows:
   host:
-    localhost
+    172.19.9.128
   port:
     9090
     
