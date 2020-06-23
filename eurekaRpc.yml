@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rpc
+
+server:
+  port: 9003
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
