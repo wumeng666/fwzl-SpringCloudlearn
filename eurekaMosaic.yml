@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: mosaic
+
+server:
+  port: 9005
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
