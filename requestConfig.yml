@@ -27,3 +27,6 @@ eureka:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 3
     lease-expiration-duration-in-seconds: 6
+
+httpactiviti: http://172.19.9.192:30099/antelope
+
