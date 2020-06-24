@@ -13,5 +13,4 @@ global:
   
 # servername名称 和数据库中servername对应
 cust:
-  servername:
-  rpc
+  servername: rpc
