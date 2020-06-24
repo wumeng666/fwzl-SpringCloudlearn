@@ -10,3 +10,8 @@ server:
 # 请求最大量
 global:
   count: 5
+  
+# servername名称 和数据库中servername对应
+cust:
+  servername:
+  rpc
