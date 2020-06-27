@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: pansharpen
+
+server:
+  port: 9007
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
