@@ -14,3 +14,5 @@ k8s项目中所有的配置
   eurekaServer.yml  9999  服务中心
   eurekaZuul.properties 20000   网关
   requestConfig.yml 7001    所有算法请求有关的配置
+  eurekaPansharpen.yml  9007  全色和多光谱融合 
+  eurekaColorbalance.yml  9008  色彩均衡 
