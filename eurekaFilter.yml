@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: fileter
+    name: filter
 
 server:
   port: 9006
