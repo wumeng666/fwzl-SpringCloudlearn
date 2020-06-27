@@ -1,0 +1,14 @@
+    
+
+spring:
+  application:
+    name: colorbalance
+
+server:
+  port: 9008
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
