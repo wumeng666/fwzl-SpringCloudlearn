@@ -1,9 +1,0 @@
-from:
-  jjjjjjjjj-1.0
-from:
-  jjjjjjjjj-2.0
-server:
-  port: 7002
-management:
-  security:
-    enabled: false     #SpringBoot 1.5.X 以上默认开通了安全认证，如果不关闭会要求权限
