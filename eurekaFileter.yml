@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: fileter
+
+server:
+  port: 9006
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
