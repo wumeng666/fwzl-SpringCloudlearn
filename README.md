@@ -18,3 +18,4 @@ k8s项目中所有的配置
   eurekaColorbalance.yml  9008  色彩均衡 
   eurekaAodinversion.yml  9009  气溶胶反演专题产品
   eurekaBritemperature.yml  9011 亮温专题产品
+  eurekaCloudage.yml  9012  云量检测
