@@ -21,4 +21,5 @@ k8s项目中所有的配置
   eurekaCloudage.yml  9012  云量检测
   eurekaCss.yml   9013    悬浮物浓度专题产品
   eurekaDwr.yml   9014    离水反射率
+  eurekaFpar.yml  9015    光合有效辐射吸收比率
  
