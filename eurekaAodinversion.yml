@@ -1,0 +1,14 @@
+    
+
+spring:
+  application:
+    name: aodinversion
+
+server:
+  port: 9009
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
