@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: iwphpi
+
+server:
+  port: 9018
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
