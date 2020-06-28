@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: dwr
+
+server:
+  port: 9014
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
