@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: lai
+
+server:
+  port: 9019
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
