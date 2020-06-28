@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: imgjointed
+
+server:
+  port: 9017
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
