@@ -22,4 +22,8 @@ k8s项目中所有的配置
   eurekaCss.yml   9013    悬浮物浓度专题产品
   eurekaDwr.yml   9014    离水反射率
   eurekaFpar.yml  9015    光合有效辐射吸收比率
- 
+  eurekaImgfusion.yml  9016 图像融合
+  eurekaImgjointed.yml  9017    图像拼接
+  eurekaIwphpi.yml  9018    内陆水体参量高精度反演
+  eurekaLai.yml   9019    叶面积指数专题
+  eurekaLsr.yml   9020  地表温度专题产品
