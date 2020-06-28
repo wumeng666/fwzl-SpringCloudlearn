@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: imgfusion
+
+server:
+  port: 9016
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
