@@ -17,3 +17,4 @@ k8s项目中所有的配置
   eurekaPansharpen.yml  9007  全色和多光谱融合 
   eurekaColorbalance.yml  9008  色彩均衡 
   eurekaAodinversion.yml  9009  气溶胶反演专题产品
+  eurekaBritemperature.yml  9011 亮温专题产品
