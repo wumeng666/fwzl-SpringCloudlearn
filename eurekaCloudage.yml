@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: cloudage
+
+server:
+  port: 9012
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
