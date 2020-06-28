@@ -20,4 +20,5 @@ k8s项目中所有的配置
   eurekaBritemperature.yml  9011 亮温专题产品
   eurekaCloudage.yml  9012  云量检测
   eurekaCss.yml   9013    悬浮物浓度专题产品
+  eurekaDwr.yml   9014    离水反射率
  
