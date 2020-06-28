@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: lsr
+
+server:
+  port: 9020
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
