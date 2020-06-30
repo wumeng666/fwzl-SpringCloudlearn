@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: keras
+
+server:
+  port: 9021
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
