@@ -27,3 +27,6 @@ k8s项目中所有的配置
   eurekaIwphpi.yml  9018    内陆水体参量高精度反演
   eurekaLai.yml   9019    叶面积指数专题
   eurekaLsr.yml   9020  地表温度专题产品
+  eurekaKeras.yml   9021  油井检测
+  eurekaDota.yml   9022  多类型目标检测
+  eurekaPlane.yml   9023  光学飞机目标检测
