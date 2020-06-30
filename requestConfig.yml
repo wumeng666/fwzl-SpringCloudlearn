@@ -12,6 +12,15 @@ windows:
     172.19.9.128
   port:
     9090
+linuxtwo:
+  username:
+    cetc54
+  password:
+    Windows2000!
+  host:
+    172.19.9.126
+  port:
+    22
     
 eureka:
   client:
