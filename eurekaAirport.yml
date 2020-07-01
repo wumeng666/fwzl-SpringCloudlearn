@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: airport
+
+server:
+  port: 9024
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
