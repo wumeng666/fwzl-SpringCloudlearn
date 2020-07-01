@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: georectifyparm
+    name: georectify
 
 server:
   port: 9010
