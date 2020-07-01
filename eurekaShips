@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: ships
+
+server:
+  port: 9025
+  zuul:
+    url: zuul
+
+# 请求最大量
+global:
+  count: 5
