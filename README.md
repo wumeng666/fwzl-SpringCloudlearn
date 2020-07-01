@@ -30,3 +30,5 @@ k8s项目中所有的配置
   eurekaKeras.yml   9021  油井检测
   eurekaDota.yml   9022  多类型目标检测
   eurekaPlane.yml   9023  光学飞机目标检测
+  eurekaAirport.yml   9024  SAR机场目标检测
+  eurekaShips.yml   9025  SAR舰船目标检测
