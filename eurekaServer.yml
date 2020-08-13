@@ -9,7 +9,7 @@ spring:
 
 
 server:
- port: 9999
+ port: 10006
 
 eureka:
  instance:
